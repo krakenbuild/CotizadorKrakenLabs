@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		794152721F5135D700B673F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794152711F5135D700B673F0 /* AppDelegate.swift */; };
+		794152741F5135D700B673F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794152731F5135D700B673F0 /* ViewController.swift */; };
+		794152771F5135D700B673F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 794152751F5135D700B673F0 /* Main.storyboard */; };
+		794152791F5135D700B673F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 794152781F5135D700B673F0 /* Assets.xcassets */; };
+		7941527C1F5135D700B673F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7941527A1F5135D700B673F0 /* LaunchScreen.storyboard */; };
+		794152871F5135DA00B673F0 /* Kraken_CotizadorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794152861F5135DA00B673F0 /* Kraken_CotizadorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		794152831F5135DA00B673F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 794152661F5135D700B673F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7941526D1F5135D700B673F0;
+			remoteInfo = "Kraken Cotizador";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7941526E1F5135D700B673F0 /* Kraken Cotizador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kraken Cotizador.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794152711F5135D700B673F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		794152731F5135D700B673F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		794152761F5135D700B673F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		794152781F5135D700B673F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7941527B1F5135D700B673F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7941527D1F5135D700B673F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		794152821F5135DA00B673F0 /* Kraken CotizadorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kraken CotizadorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794152861F5135DA00B673F0 /* Kraken_CotizadorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kraken_CotizadorTests.swift; sourceTree = "<group>"; };
+		794152881F5135DA00B673F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7941526B1F5135D700B673F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7941527F1F5135DA00B673F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		794152651F5135D700B673F0 = {
+			isa = PBXGroup;
+			children = (
+				794152701F5135D700B673F0 /* Kraken Cotizador */,
+				794152851F5135DA00B673F0 /* Kraken CotizadorTests */,
+				7941526F1F5135D700B673F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7941526F1F5135D700B673F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7941526E1F5135D700B673F0 /* Kraken Cotizador.app */,
+				794152821F5135DA00B673F0 /* Kraken CotizadorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		794152701F5135D700B673F0 /* Kraken Cotizador */ = {
+			isa = PBXGroup;
+			children = (
+				794152711F5135D700B673F0 /* AppDelegate.swift */,
+				794152731F5135D700B673F0 /* ViewController.swift */,
+				794152751F5135D700B673F0 /* Main.storyboard */,
+				794152781F5135D700B673F0 /* Assets.xcassets */,
+				7941527A1F5135D700B673F0 /* LaunchScreen.storyboard */,
+				7941527D1F5135D700B673F0 /* Info.plist */,
+			);
+			path = "Kraken Cotizador";
+			sourceTree = "<group>";
+		};
+		794152851F5135DA00B673F0 /* Kraken CotizadorTests */ = {
+			isa = PBXGroup;
+			children = (
+				794152861F5135DA00B673F0 /* Kraken_CotizadorTests.swift */,
+				794152881F5135DA00B673F0 /* Info.plist */,
+			);
+			path = "Kraken CotizadorTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7941526D1F5135D700B673F0 /* Kraken Cotizador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7941528B1F5135DA00B673F0 /* Build configuration list for PBXNativeTarget "Kraken Cotizador" */;
+			buildPhases = (
+				7941526A1F5135D700B673F0 /* Sources */,
+				7941526B1F5135D700B673F0 /* Frameworks */,
+				7941526C1F5135D700B673F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kraken Cotizador";
+			productName = "Kraken Cotizador";
+			productReference = 7941526E1F5135D700B673F0 /* Kraken Cotizador.app */;
+			productType = "com.apple.product-type.application";
+		};
+		794152811F5135DA00B673F0 /* Kraken CotizadorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7941528E1F5135DA00B673F0 /* Build configuration list for PBXNativeTarget "Kraken CotizadorTests" */;
+			buildPhases = (
+				7941527E1F5135DA00B673F0 /* Sources */,
+				7941527F1F5135DA00B673F0 /* Frameworks */,
+				794152801F5135DA00B673F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				794152841F5135DA00B673F0 /* PBXTargetDependency */,
+			);
+			name = "Kraken CotizadorTests";
+			productName = "Kraken CotizadorTests";
+			productReference = 794152821F5135DA00B673F0 /* Kraken CotizadorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		794152661F5135D700B673F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Luis Arturo Gutiérrez";
+				TargetAttributes = {
+					7941526D1F5135D700B673F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H46GZ2RY2C;
+						ProvisioningStyle = Automatic;
+					};
+					794152811F5135DA00B673F0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H46GZ2RY2C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7941526D1F5135D700B673F0;
+					};
+				};
+			};
+			buildConfigurationList = 794152691F5135D700B673F0 /* Build configuration list for PBXProject "Kraken Cotizador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 794152651F5135D700B673F0;
+			productRefGroup = 7941526F1F5135D700B673F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7941526D1F5135D700B673F0 /* Kraken Cotizador */,
+				794152811F5135DA00B673F0 /* Kraken CotizadorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7941526C1F5135D700B673F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7941527C1F5135D700B673F0 /* LaunchScreen.storyboard in Resources */,
+				794152791F5135D700B673F0 /* Assets.xcassets in Resources */,
+				794152771F5135D700B673F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		794152801F5135DA00B673F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7941526A1F5135D700B673F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794152741F5135D700B673F0 /* ViewController.swift in Sources */,
+				794152721F5135D700B673F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7941527E1F5135DA00B673F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				794152871F5135DA00B673F0 /* Kraken_CotizadorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		794152841F5135DA00B673F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7941526D1F5135D700B673F0 /* Kraken Cotizador */;
+			targetProxy = 794152831F5135DA00B673F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		794152751F5135D700B673F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				794152761F5135D700B673F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7941527A1F5135D700B673F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7941527B1F5135D700B673F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		794152891F5135DA00B673F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7941528A1F5135DA00B673F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7941528C1F5135DA00B673F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = "Kraken Cotizador/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrakenLabs.Kraken-Cotizador";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7941528D1F5135DA00B673F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = "Kraken Cotizador/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrakenLabs.Kraken-Cotizador";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7941528F1F5135DA00B673F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = "Kraken CotizadorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrakenLabs.Kraken-CotizadorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kraken Cotizador.app/Kraken Cotizador";
+			};
+			name = Debug;
+		};
+		794152901F5135DA00B673F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H46GZ2RY2C;
+				INFOPLIST_FILE = "Kraken CotizadorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KrakenLabs.Kraken-CotizadorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kraken Cotizador.app/Kraken Cotizador";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		794152691F5135D700B673F0 /* Build configuration list for PBXProject "Kraken Cotizador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				794152891F5135DA00B673F0 /* Debug */,
+				7941528A1F5135DA00B673F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7941528B1F5135DA00B673F0 /* Build configuration list for PBXNativeTarget "Kraken Cotizador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7941528C1F5135DA00B673F0 /* Debug */,
+				7941528D1F5135DA00B673F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7941528E1F5135DA00B673F0 /* Build configuration list for PBXNativeTarget "Kraken CotizadorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7941528F1F5135DA00B673F0 /* Debug */,
+				794152901F5135DA00B673F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 794152661F5135D700B673F0 /* Project object */;
+}
