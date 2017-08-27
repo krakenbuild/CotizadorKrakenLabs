@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Kraken Cotizador.xcscheme</key>
+		<key>KrakenLabsCotizador.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7941526D1F5135D700B673F0</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>794152811F5135DA00B673F0</key>
+		<key>0F22E1AA1E8407D1004B722A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

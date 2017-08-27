@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Kraken Cotizador
-//
-//  Created by Luis Arturo Gutiérrez on 25/08/17.
-//  Copyright © 2017 Luis Arturo Gutiérrez. All rights reserved.
-//
 
 import UIKit
 

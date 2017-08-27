@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7941526D1F5135D700B673F0"
-               BuildableName = "Kraken Cotizador.app"
-               BlueprintName = "Kraken Cotizador"
-               ReferencedContainer = "container:Kraken Cotizador.xcodeproj">
+               BlueprintIdentifier = "0F22E1AA1E8407D1004B722A"
+               BuildableName = "KrakenLabsCotizador.app"
+               BlueprintName = "KrakenLabsCotizador"
+               ReferencedContainer = "container:KrakenLabsCotizador.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "794152811F5135DA00B673F0"
-               BuildableName = "Kraken CotizadorTests.xctest"
-               BlueprintName = "Kraken CotizadorTests"
-               ReferencedContainer = "container:Kraken Cotizador.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7941526D1F5135D700B673F0"
-            BuildableName = "Kraken Cotizador.app"
-            BlueprintName = "Kraken Cotizador"
-            ReferencedContainer = "container:Kraken Cotizador.xcodeproj">
+            BlueprintIdentifier = "0F22E1AA1E8407D1004B722A"
+            BuildableName = "KrakenLabsCotizador.app"
+            BlueprintName = "KrakenLabsCotizador"
+            ReferencedContainer = "container:KrakenLabsCotizador.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7941526D1F5135D700B673F0"
-            BuildableName = "Kraken Cotizador.app"
-            BlueprintName = "Kraken Cotizador"
-            ReferencedContainer = "container:Kraken Cotizador.xcodeproj">
+            BlueprintIdentifier = "0F22E1AA1E8407D1004B722A"
+            BuildableName = "KrakenLabsCotizador.app"
+            BlueprintName = "KrakenLabsCotizador"
+            ReferencedContainer = "container:KrakenLabsCotizador.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7941526D1F5135D700B673F0"
-            BuildableName = "Kraken Cotizador.app"
-            BlueprintName = "Kraken Cotizador"
-            ReferencedContainer = "container:Kraken Cotizador.xcodeproj">
+            BlueprintIdentifier = "0F22E1AA1E8407D1004B722A"
+            BuildableName = "KrakenLabsCotizador.app"
+            BlueprintName = "KrakenLabsCotizador"
+            ReferencedContainer = "container:KrakenLabsCotizador.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
